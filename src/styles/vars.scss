@@ -1,0 +1,45 @@
+/* Colors ------------------------------------- */
+$color-main: #ffa500;
+$color-primary: #c20ed5;
+$color-secondary:#2c0ed8;
+$color-success:#339900;
+$color-warning:#ffcc00;
+$color-error:#ed4337;
+$color-link: #d80e54;
+
+$colors:(
+  main: $color-main,
+  primary: $color-primary,
+  secondary: $color-secondary,
+  success: $color-success,
+  warning: $color-warning,
+  error: $color-error,
+  link: $color-link
+);
+
+/* Breakpoints ------------------------------------- */
+$breakpoint-s: 36rem;
+$breakpoint-m: 48rem;
+$breakpoint-l: 62rem;
+$breakpoint-xl: 75rem;
+
+$breakpoints: (
+  s: $breakpoint-s,
+  m: $breakpoint-m,
+  l: $breakpoint-l,
+  xl: $breakpoint-xl
+);
+
+/* Containers ------------------------------------- */
+$container-xs: 100%;
+$container-s: 33rem;
+$container-m: 45rem;
+$container-l: 60rem;
+$container-xl: 70rem;
+
+$containers: (
+  s: $container-s,
+  m: $container-m,
+  l: $container-l,
+  xl: $container-xl
+);

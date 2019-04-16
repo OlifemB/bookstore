@@ -1,0 +1,41 @@
+@import './vars';
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (min-width: $breakpoint-s) {
+  .container {
+    max-width: $container-s;
+  }
+}
+
+@media (min-width: $breakpoint-m) {
+  .container {
+    max-width: $container-m;
+  }
+}
+
+@media (min-width: $breakpoint-l) {
+  .container {
+    max-width: $container-l;
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .container {
+    max-width: $container-xl;
+  }
+}

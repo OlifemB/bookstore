@@ -1,0 +1,17 @@
+@import 'vars';
+
+.color{
+  @each $title, $value in $colors {
+    &-#{$title}{
+      color: $value;
+    }
+  }
+}
+
+.background{
+  @each $title, $value in $colors {
+    &-#{$title}{
+      color: $value;
+    }
+  }
+}
